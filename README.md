@@ -1,13 +1,13 @@
-# Ethnus Web Dev Internship: The Chronicles 🚀
+# Ethnus Web Dev Internship: The Chronicles 
 
-Welcome to my fantastic repository, where I've documented my epic adventures during the Ethnus MERN Full Stack Internship!💥
+Welcome to my fantastic repository, where I've documented my epic adventures during the Ethnus MERN Full Stack Internship!
 
 
-Get ready to embark on a wild coding safari filled with code, bugs, and the occasional debugging-induced existential crisis ⛵
+Get ready to embark on a wild coding safari filled with code, bugs, and the occasional debugging-induced existential crisis
 
 <br/>
 
-## Phase 1: HTML & CSS - "Styling My Way to Glory"🌟
+## Phase 1: HTML & CSS - "Styling My Way to Glory"
 
 🎯 Currently mastering the art of crafting pixel-perfect web pages with HTML and CSS. 
 
