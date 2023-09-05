@@ -6,14 +6,23 @@
     <title>TASK 3</title>
 
     <style>
-          div{
-            margin-right: auto;
-            margin-left: auto;
-            }
+        div{
+        text-align: start;
+        margin-right:auto;
+        margin-left:auto;
+        }
+    
+        h3{
+            text-align: center;
+        }
+
+        .l1::after{
+            content: " | ";
+        }
             
-            h3{
-                text-align: center;
-            }
+        li{
+            margin-right: 5px;
+        }
 
     </style>
 </head>
@@ -21,18 +30,22 @@
 
     <h3>TASK 3: Hyperlinks</h3>
 
-    <div style="border: solid black; border-width: thin; width:fit-content; background-color: rgb(228, 227, 227); padding: 10px;">
-        
+    <div style="border: solid black; border-width: thin; width: fit-content; background-color: rgb(228, 227, 227);">
+
+        <ul>
+
             <p>Click any of the following links</p>
-            
-                 <a style="margin-right: 10px " href="https://www.google.com/" target = "_blank">Opens in New</a>
-                 <a style="margin-right: 10px " href="https://www.google.com/" target = "_self">Opens in Self</a>
-                 <a style="margin-right: 10px " href="https://www.google.com/" target = "_parent">Opens in Parent</a>
-                 <a style="margin-right: 10px " href="https://www.google.com/" target = "_top">Opens in Body</a>
-                 <a style="margin-right: 10px " href="mailto:aswinpkumar03@gmail.com">Send Mail</a>
+
+            <div style="display: flex; list-style: none;">
+                <li class="l1" ><a href="https://www.google.com/" target="_blank">Opens in New</a></li>
+                <li class="l1" ><a href="https://www.google.com/" target="_self">Opens in Self</a></li>
+                <li class="l1" ><a href="https://www.google.com/" target="_self">Opens in Parent</a></li>
+                <li class="l1" ><a href="https://www.google.com/" target="_top">Opens in Body</a></li>
+                <li style="margin-right: 50px;"> <a href="mailto:aswinpkumar03@gmail.com">Send email</a></li>
+            </div>   
+        </ul>
     </div>
         
-   
 </body>
 </html>
 
