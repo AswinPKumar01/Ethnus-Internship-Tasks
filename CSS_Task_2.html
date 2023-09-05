@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+
+    <style>
+
+        ul.a {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 200px;
+  background-color: lightblue;
+}
+
+li.a {
+  font-weight: bold;
+  display: block;
+  color: blue;
+  padding: 8px 16px;
+
+}
+
+li.a:hover {
+  background-color: orange;
+  color: white;
+}
+
+
+ul.b {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #c3c3c3;
+}
+
+li.b {
+  float: left;
+  border-right:1px solid blue;
+}
+
+li.b:last-child{
+  border-right: none;
+}
+
+
+
+li.b {
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  
+}
+
+li.b:hover:not(.active) {
+  background-color: #4e4a4a77;
+}
+
+    </style>
+    
+</head>
+<body>
+
+    <h3>Task 2a: Horizontal Navigation Bar</h3>
+<div style="border: solid black; border-width: thin; width:fit-content ; padding: 10px;">
+    <ul class="a">
+        <li class="a">Home</li>
+        <li class="a">Java</li>
+        <li class="a">CSS</li>
+        <li class="a">HTML</li>
+        <li class="a">Bootstrap</li>
+      </ul>
+    </div>
+    <br>
+    <hr color="black">
+    <br>
+
+
+
+    <h3>Task 2b: Vertical Navigation Bar</h3>
+<div style="border: solid black; border-width: thin; width:fit-content ; padding: 10px;">
+    <ul class="b">
+        <li class="b">Home</labek></li>
+        <li class="b">Java</li>
+        <li class="b">HTML</li>
+        <li class="b">CSS</li>
+        <li class="b" style="float: right; width: 78px;"></li>
+       
+      </ul>
+    </div>
+
+    
+</body>
+</html>
