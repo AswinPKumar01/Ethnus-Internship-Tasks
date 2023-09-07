@@ -7,7 +7,7 @@
     
     <style>
 
-        div{
+         div{
             width: 300px; height: 300px; margin: 0 auto;
         }
 
@@ -15,15 +15,14 @@
             width: 155px;
             display: inline-block;
         }
-
-        form{
+          form{
             margin-right: auto;
             margin-left: auto;
-        }
-            
-        h3{
-            text-align: center;
-        }
+            }
+
+            h3{
+                text-align: center;
+            }
 
 
     </style>
@@ -33,42 +32,53 @@
 
     <h3>Task 4: Simple Form using HTML</h3>
     <br>
+    
 
     <div style="align-items: center; width:fit-content ; padding: 10px;">
         <form>
-            <p><label for="fn">Full Name: </label>
-            <input type="text" placeholder="Full Name" id = "fn"></p>
-    
-            <p><label for="un">Username: </label>
-            <input type="text" placeholder="Username" id = "un"></p>
-    
-            <p><label for="pwd">Password: </label>
-            <input type="password" placeholder="Password" id = "pwd"></p>
-    
-            <p><label for="rpwd">Re Password: </label>
-            <input type="password" placeholder="Re-enter Password" id = "rpwd"></p>
-    
-            <p><label for="add">Address: </label>
-            <input type="text" placeholder="Address" id = "add"></p>
-    
-    
-            <p><label for="age">Age: </label>
-            <input type="number" placeholder="Age" id = "age"></p>
-    
-    
-            <p><label for="gen">Gender: </label>
-            <select name = "Gender" id = "gen">
-                <option value="male">Male</option>
-                <option value="female">Female</option>
-            </select></p>
-    
-        <p><input type="submit" value="Save">
-        </form></p>
 
-    </div>
+            <table>
+                <tr>
+                    <td style="width: 180px;" ><label for="fullname">Full Name:</label></td>
+                    <td><input type="text" id="fullname" placeholder="Enter Full Name" ></td>
+                </tr>
+                <tr>
+                    <td><label for="username">Username:</label></td>
+                    <td><input type="text" id="username" placeholder="Enter Username"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password:</label></td>
+                    <td><input type="password" id="password" placeholder="Enter Password"></td>
+                </tr>
+                <tr>
+                    <td><label for="repassword">Re Password:</label></td>
+                    <td><input type="password" id="repassword" placeholder="Re-enter Password"></td>
+                </tr>
+                <tr>
+                    <td><label for="address">Address:</label></td>
+                    <td><input type="text" id="address" placeholder="Enter Address"></td>
+                </tr>
+                <tr>
+                    <td><label for="age">Age:</label></td>
+                    <td><input type="number" id="age" placeholder="Enter Age"></td>
+                </tr>
+                <tr>
+                    <td><label for="gender">Gender:</label></td>
+                    <td>
+                        <select id="gender" name="gender">
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                    </td>
+                </tr>
+                
+            </table>
 
-   
+            <input type="submit" value="Save" id="save">
+        </form>
     
+    </div>    
     
+
 </body>
 </html>
