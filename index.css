@@ -66,6 +66,14 @@ tbody tr:last-of-type {
     color: #009879;
 }
 
+.hr a{
+    color: #009879;
+}
+
+.cr a{
+    color:#650098;
+}
+
 .cr:hover {
     background-color: #bd81e8be;
     font-weight: bolder;
