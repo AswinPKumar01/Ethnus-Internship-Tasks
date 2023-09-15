@@ -80,9 +80,31 @@ tbody tr:last-of-type {
     color: #650098;
 }
 
+.bst thead tr {
+    background-color: #001998;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.bst tbody tr:last-of-type {
+    border-bottom: 2px solid #001998;
+}
+
+.bsr a{
+    color:#001998;
+}
+
+.bsr:hover {
+    background-color: #8183e8be;
+    font-weight: bolder;
+    color: #001998;
+}
+
 h2{
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    margin: 35px 0 10px;;
 }
 
 footer{
