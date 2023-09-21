@@ -11,7 +11,7 @@ Get ready to embark on a wild coding safari filled with code, bugs, and the occa
 
 * Currently mastering the art of crafting pixel-perfect web pages with HTML and CSS. 
 
-* The first assignment of 5 HTML tasks and 5 CSS tasks can been accessed through the below link:
+* The first assignment of 5 HTML tasks and 7 CSS tasks can been accessed through the below link:
 
 * Link: https://aswinpkumar01.github.io/Ethnus-Internship-Tasks/
 
